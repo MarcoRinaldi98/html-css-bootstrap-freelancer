@@ -13,6 +13,7 @@
 /* variabili */
 :root {
     --header-bgcolor: #2c3e50;
+    --secondary-color: #1abc9c;
     --white-color: #fff;
 }
 
@@ -27,4 +28,9 @@ html{
 }
 .ms_c_white {
     color: var(--white-color);
+}
+
+#jumbotron {
+    background-color: var(--secondary-color);
+    height: 100vh;
 }
