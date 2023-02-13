@@ -32,5 +32,5 @@ html{
 
 #jumbotron {
     background-color: var(--secondary-color);
-    height: 100vh;
+    padding: 80px 0 20px 0;
 }
