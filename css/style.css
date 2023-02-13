@@ -54,5 +54,10 @@ html{
 
 #location {
     background-color: var(--primary-light-color);
-    padding: 20px 0;
+    padding: 40px 0;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0;
 }
