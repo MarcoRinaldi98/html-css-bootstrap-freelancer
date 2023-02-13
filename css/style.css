@@ -5,6 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* debug */
+.debug .box {
+    background-color: red;
+}
+
+/* variabili */
+:root {
+    --header-bgcolor: #2c3e50;
+    --white-color: #fff;
+}
 
 
 /* Regole CSS generali */
@@ -12,3 +22,9 @@ html{
     font-family: sans-serif;
 }
 
+.ms_bg_primary {
+    background-color: var(--header-bgcolor);
+}
+.ms_c_white {
+    color: var(--white-color);
+}
