@@ -12,7 +12,8 @@
 
 /* variabili */
 :root {
-    --header-bgcolor: #2c3e50;
+    --primary-color: #2c3e50;
+    --primary-light-color: #3a546d;
     --secondary-color: #1abc9c;
     --white-color: #fff;
 }
@@ -24,7 +25,7 @@ html{
 }
 
 .ms_bg_primary {
-    background-color: var(--header-bgcolor);
+    background-color: var(--primary-color);
 }
 .ms_bg_secondary {
     background-color: var(--secondary-color);
@@ -48,5 +49,10 @@ html{
 }
 
 #contact {
+    padding: 20px 0;
+}
+
+#location {
+    background-color: var(--primary-light-color);
     padding: 20px 0;
 }
