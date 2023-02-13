@@ -26,6 +26,9 @@ html{
 .ms_bg_primary {
     background-color: var(--header-bgcolor);
 }
+.ms_bg_secondary {
+    background-color: var(--secondary-color);
+}
 .ms_c_white {
     color: var(--white-color);
 }
@@ -35,7 +38,15 @@ html{
     padding: 80px 0 20px 0;
 }
 
+#portfolio {
+    padding: 20px 0;
+}
+
 #about {
     background-color: var(--secondary-color);
     padding: 50px 0;
+}
+
+#contact {
+    padding: 20px 0;
 }
