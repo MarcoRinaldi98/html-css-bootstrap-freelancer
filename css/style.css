@@ -21,6 +21,10 @@
 /* Regole CSS generali */
 html{
     font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 80px;
 }
 
 .ms_bg_primary {
@@ -41,13 +45,43 @@ html{
     padding: 80px 0 20px 0;
 }
 
-input::placeholder {
+#portfolio .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 8px;
+    right: 8px;
+    display: none;
+    background-color: rgba(0, 255, 150, 0.5);
+}
+.overlay i {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#portfolio .ms_hover:hover .overlay{
+    display: block;
+    cursor: pointer;
+}
+
+#about button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+#contact input::placeholder {
     color: black;
     font-weight: 500;
 }
-textarea::placeholder {
+#contact textarea::placeholder {
     color: black;
     font-weight: 500;
+}
+#contact .btn:hover {
+    background-color: #128971;
 }
 
 /* FOOTER */
