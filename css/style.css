@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* debug */
 .debug .box {
     background-color: red;
@@ -15,9 +16,7 @@
     --primary-color: #2c3e50;
     --primary-light-color: #3a546d;
     --secondary-color: #1abc9c;
-    --white-color: #fff;
 }
-
 
 /* Regole CSS generali */
 html{
@@ -27,37 +26,33 @@ html{
 .ms_bg_primary {
     background-color: var(--primary-color);
 }
+.ms_bg_primary_light {
+    background-color: var(--primary-light-color);
+}
 .ms_bg_secondary {
     background-color: var(--secondary-color);
 }
-.ms_c_white {
-    color: var(--white-color);
+.ms_c_secondary {
+    color: var(--secondary-color);
 }
 
+/* MAIN */
 #jumbotron {
-    background-color: var(--secondary-color);
     padding: 80px 0 20px 0;
 }
 
-#portfolio {
-    padding: 20px 0;
+input::placeholder {
+    color: black;
+    font-weight: 500;
+}
+textarea::placeholder {
+    color: black;
+    font-weight: 500;
 }
 
-#about {
-    background-color: var(--secondary-color);
-    padding: 50px 0;
-}
-
-#contact {
-    padding: 20px 0;
-}
-
-#location {
-    background-color: var(--primary-light-color);
-    padding: 40px 0;
-}
-
-footer {
-    background-color: var(--primary-color);
-    padding: 2rem 0;
+/* FOOTER */
+.ms_radius_box {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
 }

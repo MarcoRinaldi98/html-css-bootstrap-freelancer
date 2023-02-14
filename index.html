@@ -17,9 +17,9 @@
 <body class="debug">
     
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-sm ms_bg_primary">
+        <nav class="navbar navbar-expand-sm ms_bg_primary" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand ms_c_white fw-semibold" href="#">
+                <a class="navbar-brand text-white fw-semibold" href="#">
                     START BOOTSTRAP
                 </a>
 
@@ -27,17 +27,16 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
               
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                  
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">                 
                     <ul class="nav d-flex">
                         <li class="nav-item">
-                          <a class="nav-link ms_c_white" href="#">PORTFOLIO</a>
+                          <a class="nav-link text-white" href="#">PORTFOLIO</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link ms_c_white" href="#">ABOUT</a>
+                          <a class="nav-link text-white" href="#">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link ms_c_white" href="#">CONTACT</a>
+                          <a class="nav-link text-white" href="#">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -46,195 +45,177 @@
     </header>
 
     <main>
-        <section id="jumbotron">
+        <section id="jumbotron" class="ms_bg_secondary">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-4 offset-4">
                         <img src="./img/avatar.svg" alt="">
                     </div>                  
                 </div>
+               
+                <h2 class="text-white fs-1">START BOOTSTRAP</h2>
+                                   
+                <div class="row">
+                    <div class="col-4 offset-4 text-white fs-4 d-flex">
+                        <hr class="flex-grow-1"/>
+                        <i class="fa-solid fa-star px-3 lh-sm"></i>
+                        <hr class="flex-grow-1"/>
+                    </div>                                     
+                </div>
 
                 <div class="row">
                     <div class="col-10 offset-1">
-                        <h2 class="ms_c_white fs-1">START BOOTSTRAP</h2>
+                        <span class="text-white fs-6">GRAPHICS ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
                     </div>                  
                 </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-4">
+            <div class="container text-center">
+                
+                <h3 class="fs-2">PORTFOLIO</h3>
                 
                 <div class="row">
-                    <div class="col-2 offset-3 text">
-                        <hr class="">
-                    </div>
-                    <div class="col-2 ms_c_white fs-4">
-                        <i class="fa-solid fa-star"></i>
-                    </div> 
-                    <div class="col-2">
-                        <hr class="">
-                    </div>                   
-                </div>
-
-                <div class="row">
-                    <div class="col-10 offset-1">
-                        <span class="ms_c_white fs-6">GRAPHICS ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
-                    </div>                  
+                    <div class="col-4 offset-4 fs-4 d-flex">
+                        <hr class="flex-grow-1"/>
+                        <i class="fa-solid fa-star px-3 lh-sm"></i>
+                        <hr class="flex-grow-1"/>
+                    </div>                                     
                 </div>
             </div>
-        </section>
 
-        <section id="portfolio">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-6 offset-3">
-                        <h3 class="fs-2">PORTFOLIO</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2 offset-3 text">
-                        <hr class="">
-                    </div>
-                    <div class="col-2 fs-4">
-                        <i class="fa-solid fa-star"></i>
-                    </div> 
-                    <div class="col-2">
-                        <hr class="">
-                    </div>                   
-                </div>
-            </div>
             <div class="container mt-2">
-                <div class="row">
+                <div class="row g-3">
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100 rounded mb-3" src="./img/cabin.png" alt="">
+                        <img class="w-100 rounded" src="./img/cabin.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100 rounded mb-3" src="./img/cake.png" alt="">
+                        <img class="w-100 rounded" src="./img/cake.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100 rounded mb-3" src="./img/circus.png" alt="">
+                        <img class="w-100 rounded" src="./img/circus.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100 rounded mb-3" src="./img/game.png" alt="">
+                        <img class="w-100 rounded" src="./img/game.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100 rounded mb-3" src="./img/safe.png" alt="">
+                        <img class="w-100 rounded" src="./img/safe.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img class="w-100 rounded mb-3" src="./img/submarine.png" alt="">
+                        <img class="w-100 rounded" src="./img/submarine.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="about">
+        <section id="about" class="py-4 ms_bg_secondary">
             <div class="container text-center">
+                
+                <h3 class="text-white fs-2">ABOUT</h3>
+                  
                 <div class="row">
-                    <div class="col-6 offset-3">
-                        <h3 class="ms_c_white fs-2">ABOUT</h3>
+                    <div class="col-4 offset-4 text-white fs-4 d-flex">
+                        <hr class="flex-grow-1"/>
+                        <i class="fa-solid fa-star px-3 lh-sm"></i>
+                        <hr class="flex-grow-1"/>
+                    </div>                                     
+                </div>
+
+                <div class="row">
+                    <div class="col-10 offset-1 col-md-5 text-start text-white">
+                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    </div>
+                    <div class="col-10 offset-1 col-md-5 offset-md-0 text-start text-white">
+                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projEts, this template is the perfect starting point!</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-2 offset-3 text">
-                        <hr class="">
-                    </div>
-                    <div class="col-2 fs-4">
-                        <i class="fa-solid fa-star ms_c_white"></i>
-                    </div> 
-                    <div class="col-2">
-                        <hr class="">
-                    </div>                   
-                </div>
-                <div class="row">
-                    <div class="col-10 offset-1 col-md-5 text-start ms_c_white">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laborum minus distinctio inventore laudantium impedit similique tempore harum, blanditiis voluptatibus soluta id, debitis odit. Pariatur adipisci quia optio beatae voluptates!</p>
-                    </div>
-                    <div class="col-10 offset-1 col-md-5 offset-md-0 text-start  ms_c_white">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus magnam saepe officia labore dolore cupiditate architecto veniam distinctio quo debitis, qui unde, consequuntur animi quasi alias voluptates, optio ipsa quis.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4 offset-4 text-start ms_c_white text-center">
-                        <button type="button" class="btn btn-outline-light ">
-                            <i class="fa-solid fa-download"></i>
-                            Download
-                        </button>
-                    </div>                  
-                </div>
+
+                <button type="button" class="btn btn-outline-light mt-4">
+                    <i class="fa-solid fa-download"></i>
+                    Download
+                </button>                          
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="py-4">
             <div class="container text-center">
+                
+                <h3 class="fs-2">CONTACT ME</h3>
+                    
                 <div class="row">
-                    <div class="col-6 offset-3">
-                        <h3 class="fs-2">CONTACT ME</h3>
-                    </div>
+                    <div class="col-4 offset-4 fs-4 d-flex">
+                        <hr class="flex-grow-1"/>
+                        <i class="fa-solid fa-star px-3 lh-sm"></i>
+                        <hr class="flex-grow-1"/>
+                    </div>                                     
                 </div>
-                <div class="row">
-                    <div class="col-2 offset-3 text">
-                        <hr class="">
-                    </div>
-                    <div class="col-2 fs-4">
-                        <i class="fa-solid fa-star"></i>
-                    </div> 
-                    <div class="col-2">
-                        <hr class="">
-                    </div>                   
-                </div>
-                <div class="row">
-                    <div class="col-8 offset-2 text-start">
-                        Name
-                    </div>
-                    <div class="col-8 offset-2">
-                        <hr>
-                    </div>
-                    <div class="col-8 offset-2 text-start">
-                        Email Address
-                    </div>
-                    <div class="col-8 offset-2">
-                        <hr>
-                    </div>
-                    <div class="col-8 offset-2 text-start">
-                        Phone Number
-                    </div>
-                    <div class="col-8 offset-2">
-                        <hr>
-                    </div>
-                    <div class="col-8 offset-2 text-start mb-5">
-                        Message
-                    </div>
-                    <div class="col-8 offset-2">
-                        <hr>
-                    </div>
-                    <div class="col-8 offset-2 text-start mb-5">
-                        <a class="btn btn-primary ms_bg_secondary" href="#" role="button">
-                            Send
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section id="location">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-10 offset-1 col-md-3 offset-md-1 mb-3 ms_c_white text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi cum inventore, obcaecati veritatis quam ipsam a totam velit nihil aut?
-                    </div>
-                    <div class="col-10 offset-1 mb-3 col-md-4 offset-md-0 ms_c_white text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi cum inventore, obcaecati veritatis quam ipsam a totam velit nihil aut?
-                    </div>
-                    <div class="col-10 offset-1 mb-3 col-md-3 offset-md-1 ms_c_white text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sequi cum inventore, obcaecati veritatis quam ipsam a totam velit nihil aut?
-                    </div>
+                <div class="row text-start">
+                    <form>
+                        <div class="col-10 offset-1">
+                            <input type="text" class="border-0 d-block" name="nome" id="nome" placeholder="Name" required>
+                            <hr>
+                        </div>
+            
+                        <div class="col-10 offset-1">
+                            <input type="email" class="border-0 d-block" name="email" id="email" placeholder="Email Address" required>
+                            <hr>
+                        </div>
+            
+                        <div class="col-10 offset-1">
+                            <input type="text" class="border-0 d-block" name="telefono" id="telefono" placeholder="Phone Number" required>
+                            <hr>
+                        </div>
+            
+                        <div class="col-10 offset-1">
+                            <textarea id="messaggio" class="border-0 d-block" name="messaggio" rows="5" cols="50" placeholder="Message"></textarea>
+                        </div>
+            
+                        <div class="col-10 offset-1">
+                            <hr>
+                            <input type="submit" class="btn btn-primary ms_bg_secondary border-0" value="Send">
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
-
     <footer>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-8 offset-2 col-md-6 offset-md-3 ms_c_white fs-6">
-                Copyright your website 2019
+        <div class="footer-top py-4 ms_bg_primary_light">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-12 my-4 col-md-4 offset-md-0 text-white text-center">
+                        <h3 class="fs-5">LOCATION</h3>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col-6 offset-3 my-4 col-md-4 offset-md-0 text-white text-center">
+                        <h3 class="fs-5">AROUND THE WEB</h3>
+                        <div class="d-flex justify-content-around w-100">
+                            <div class="ms_radius_box rounded-circle border border-light">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="ms_radius_box rounded-circle border border-light">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                            <div class="ms_radius_box rounded-circle border border-light">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="ms_radius_box rounded-circle border border-light">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-md-4 offset-md-0 text-white text-center">
+                        <h3 class="fs-5">ABOUT FREELANCER</h3>
+                        <p>Freelance is a free to use, open source Bootstrap therne created by <span class="ms_c_secondary">Start Bootstrap</span>.</p>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-4 ms_bg_primary">
+            <div class="container text-center text-white fs-6">               
+                Copyright &#169; your website 2019                
             </div>
         </div>
     </footer>
