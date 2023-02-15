@@ -17,7 +17,7 @@
 <body class="debug">
     
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-sm ms_bg_primary" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-sm navbar-dark ms_bg_primary" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand text-white fw-semibold" href="#">
                     START BOOTSTRAP
@@ -30,13 +30,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">                 
                     <ul class="nav d-flex">
                         <li class="nav-item">
-                          <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
+                          <a class="nav-link" href="#portfolio">PORTFOLIO</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-white" href="#about">ABOUT</a>
+                          <a class="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-white" href="#contact">CONTACT</a>
+                          <a class="nav-link" href="#contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -171,28 +171,24 @@
 
                 <div class="row text-start">
                     <form>
-                        <div class="col-10 offset-1">
-                            <input type="text" class="border-0 d-block" name="nome" id="nome" placeholder="Name" required>
-                            <hr>
+                        <div class="col-10 offset-1 my-1">
+                            <input type="text" class="form-control ms_input" name="nome" id="nome" placeholder="Name" required>
                         </div>
             
-                        <div class="col-10 offset-1">
-                            <input type="email" class="border-0 d-block" name="email" id="email" placeholder="Email Address" required>
-                            <hr>
+                        <div class="col-10 offset-1 my-1">
+                            <input type="email" class="form-control ms_input" name="email" id="email" placeholder="Email Address" required>
                         </div>
             
-                        <div class="col-10 offset-1">
-                            <input type="text" class="border-0 d-block" name="telefono" id="telefono" placeholder="Phone Number" required>
-                            <hr>
+                        <div class="col-10 offset-1 my-1">
+                            <input type="text" class="form-control ms_input" name="telefono" id="telefono" placeholder="Phone Number" required>
                         </div>
             
-                        <div class="col-10 offset-1">
-                            <textarea id="messaggio" class="border-0 d-block" name="messaggio" rows="5" cols="50" placeholder="Message"></textarea>
+                        <div class="col-10 offset-1 my-1">
+                            <textarea id="messaggio" class="form-control ms_input" name="messaggio" rows="5" cols="50" placeholder="Message"></textarea>
                         </div>
             
-                        <div class="col-10 offset-1">
-                            <hr>
-                            <input type="submit" class="btn btn-primary ms_bg_secondary border-0" value="Send">
+                        <div class="col-10 offset-1 my-1">
+                            <input type="submit" class="btn btn-large ms_btn_color" value="Send">
                         </div>
                     </form>
                 </div>

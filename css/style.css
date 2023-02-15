@@ -20,6 +20,7 @@
 
 /* Regole CSS generali */
 html{
+    min-width: 420px;
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
@@ -40,6 +41,14 @@ section {
     color: var(--secondary-color);
 }
 
+/* HEADER */
+header .nav-link {
+    color: white;
+}
+header .nav-link:hover {
+    color: var(--secondary-color);
+}
+
 /* MAIN */
 #jumbotron {
     padding: 80px 0 20px 0;
@@ -52,7 +61,7 @@ section {
     left: 8px;
     right: 8px;
     display: none;
-    background-color: rgba(0, 255, 150, 0.5);
+    background-color: rgba(35, 188, 156, 0.7);
 }
 .overlay i {
     font-size: 50px;
@@ -72,13 +81,26 @@ section {
     color: black;
 }
 
+#contact .ms_input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding-left: 0;
+}
+#contact .ms_btn_color {
+    background-color: var(--secondary-color);
+    color: white;
+}
 #contact input::placeholder {
     color: black;
     font-weight: 500;
+    font-size: 18px;
 }
 #contact textarea::placeholder {
     color: black;
     font-weight: 500;
+    font-size: 18px;
 }
 #contact .btn:hover {
     background-color: #128971;
